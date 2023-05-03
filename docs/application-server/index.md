@@ -102,7 +102,7 @@ var connection = await session.createConnection(connectionProperties);
 var token = connection.token; // Send this string to the client side
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/session.html#createconnection){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/Session.html#createconnection){:target="_blank"}
 
 </div>
 
