@@ -45,7 +45,7 @@ var properties = {};
 var session = await openVidu.createSession(properties);
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/openvidu.html#createsession){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/OpenVidu.html#createsession){:target="_blank"}
 
 </div>
 

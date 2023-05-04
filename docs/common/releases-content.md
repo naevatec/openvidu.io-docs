@@ -2981,7 +2981,7 @@ OpenVidu Pro is now using the [latest Elasticsearch and Kibana version](https://
 - _openvidu-browser_: method [OpenVidu.getUserMedia()](api/openvidu-browser/classes/openvidu.html#getusermedia) was broken when requesting screen sharing. Now it works just fine.
 - _openvidu-browser_: setting a listener for [streamAudioVolumeChange](api/openvidu-browser/classes/streammanagerevent.html) event just after initializing a Publisher or Subscriber object could trigger an Exception. Now it doesn’t.
 - _openvidu-browser_: [Session.signal()](api/openvidu-browser/classes/session.html#signal) wrong `to` array now does not trigger a fatal error.
-- _openvidu-node-client_: [OpenVidu](api/openvidu-node-client/classes/openvidu.html#constructor) entrypoint object would throw an error if initialized with a URL with no port. Now you can use your openvidu-server domain name without a port (default 443) to initialized it.
+- _openvidu-node-client_: [OpenVidu](api/openvidu-node-client/classes/OpenVidu.html#constructor) entrypoint object would throw an error if initialized with a URL with no port. Now you can use your openvidu-server domain name without a port (default 443) to initialized it.
 - _OpenVidu Inspector_: thumbnails of recording files were sometimes asking for the secret in order to be loaded. Now they don’t.
 
 <br>
