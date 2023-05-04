@@ -44,7 +44,7 @@ There are also multiple tutorials available that show the benefits of OpenVidu C
 - [**openvidu-custom-ui**](components/openvidu-custom-ui/): learn how to customize the UI.
 - [**openvidu-custom-toolbar**](components/openvidu-custom-toolbar/): learn how to replace the default toolbar with your own.
 - [**openvidu-toolbar-buttons**](components/openvidu-toolbar-buttons/): learn how to add custom buttons to the toolbar.
-- [**openvidu-toolbar-panel-buttons**](components/openvidu-panel-buttons/): learn how to add custom panel buttons to the toolbar.
+- [**openvidu-toolbar-panel-buttons**](components/openvidu-toolbar-panel-buttons/): learn how to add custom panel buttons to the toolbar.
 - [**openvidu-custom-layout**](components/openvidu-custom-layout): learn how to replace the default layout with your own.
 - [**openvidu-custom-stream**](components/openvidu-custom-stream): learn how to replace the default stream with your own.
 - [**openvidu-custom-panels**](components/openvidu-custom-panels): learn how to replace the default panels with your own.
