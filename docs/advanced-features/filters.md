@@ -75,7 +75,7 @@ String token = connection.getToken(); // Send this string to the client side
 
 <div id="node" class="lang-tabs-content" style="display:none" markdown="1">
 
-When creating a Connection, include in [ConnectionProperties](api/openvidu-node-client/interfaces/connectionproperties.html) parameter a `kurentoOptions` object with `allowedFiters` property: a string array containing the name of the filters the user will be able to apply
+When creating a Connection, include in [ConnectionProperties](api/openvidu-node-client/interfaces/ConnectionProperties.html) parameter a `kurentoOptions` object with `allowedFiters` property: a string array containing the name of the filters the user will be able to apply
 
 ```javascript
 var connectionProperties = {
