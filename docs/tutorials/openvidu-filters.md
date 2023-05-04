@@ -107,7 +107,7 @@ To handle in a better way **Camera videos** and **Screen Videos**, we declare tw
 - `OV`: OpenVidu object, entrypoint to the openvidu-browser SDK (see [OpenVidu](api/openvidu-browser/classes/OpenVidu.html)).
 - `session`: the video-call we will connect to (see [Session](api/openvidu-browser/classes/Session.html)).
 - `publisher`: the media stream we will publish to the session (see [Publisher](api/openvidu-browser/classes/Publisher.html)).
-- `role`: the role our user will have in the session (see [OpenViduRole](api/openvidu-node-client/enums/openvidurole.html)).
+- `role`: the role our user will have in the session (see [OpenViduRole](api/openvidu-node-client/enums/OpenViduRole.html)).
 - `selectedStreamManager`: the main video in display, that can be the local video (our publisher) or any remote video (subscribers). You can click on any video to make it the main video.
 
 ---
