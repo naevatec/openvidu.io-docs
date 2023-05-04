@@ -247,7 +247,7 @@ In case you are using vosk and a [custom model](#using-custom-languages), you ne
 await session.subscribeToSpeechToText(stream, "custom-model");
 ```
 
-For [OpenVidu WebComponent](/ready-to-use-component/){:target="_blank"} and [OpenVidu Angular Components](/components/){:target="_blank"}, you need to add the custom model name as a new value at:
+For [OpenVidu WebComponent](ready-to-use-component/){:target="_blank"} and [OpenVidu Angular Components](components/){:target="_blank"}, you need to add the custom model name as a new value at:
 
 - [OpenVidu Webcomponent (`captionsLangOptions`)](api/openvidu-angular/components/OpenviduWebComponentComponent.html#captionsLangOptions){:target="_blank"}
 - [OpenVidu Angular (`captionsLangOptions`)](api/openvidu-angular/directives/CaptionsLangOptionsDirective.html){:target="_blank"}
