@@ -53,7 +53,7 @@ There are also multiple tutorials available that show the benefits of OpenVidu C
 - [**openvidu-custom-activities-panel**](components/openvidu-custom-activities-panel): learn how to replace the default activities panel with your own.
 - [**openvidu-custom-participants-panel**](components/openvidu-custom-participants-panel): learn how to replace the default participants panel with your own.
 - [**openvidu-custom-participant-panel-item**](components/openvidu-custom-participant-panel-item): learn how to replace the default participant panel item with your own.
-- [**openvidu-custom-participant-panel-item-element**](components/openvidu-custom-participant-panel-item-element): learn how to replace the default participant panel item element with your own.
+- [**openvidu-custom-participant-panel-item-element**](components/openvidu-custom-participant-panel-item-elements): learn how to replace the default participant panel item element with your own.
 - [**openvidu-toggle-hand**](components/openvidu-toggle-hand): learn how to add extra features to the videoconference.
 - [**openvidu-admin-dashboard**](components/openvidu-admin-dashboard): learn how to add an admin dashboard to the videoconference.
 
