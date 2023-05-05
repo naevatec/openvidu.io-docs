@@ -45,7 +45,7 @@ var properties = {};
 var session = await openVidu.createSession(properties);
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/openvidu.html#createsession){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/OpenVidu.html#createsession){:target="_blank"}
 
 </div>
 
@@ -102,7 +102,7 @@ var connection = await session.createConnection(connectionProperties);
 var token = connection.token; // Send this string to the client side
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/session.html#createconnection){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/Session.html#createconnection){:target="_blank"}
 
 </div>
 
@@ -293,7 +293,7 @@ The two endpoints offered by all server application samples are documented below
 
 ## User Authentication
 
-The application servers are stateless. They do not store any information about users or sessions. It is your responsibility to implement user authentication and authorization in your application server. This is a very important topic that is outside the scope of OpenVidu. You can find some useful information in the [User Authentication](/application-server/user-authentication/) section.
+The application servers are stateless. They do not store any information about users or sessions. It is your responsibility to implement user authentication and authorization in your application server. This is a very important topic that is outside the scope of OpenVidu. You can find some useful information in the [User Authentication](application-server/user-authentication/) section.
 
 <br>
 <script>

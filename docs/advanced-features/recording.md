@@ -152,7 +152,7 @@ You can use [REST API](reference-docs/REST-API/) or any of the server SDKs ([ope
         };
         var mySession = openvidu.createSession(sessionProperties);
 
-2. If Session is configured with `RecordingMode.MANUAL`, manually start and stop the recording whenever you want. You may pass a [RecordingProperties](api/openvidu-node-client/interfaces/recordingproperties.html) object when calling `OpenVidu.startRecording` method to override default values configured in step 1 or to further configure it with other available options
+2. If Session is configured with `RecordingMode.MANUAL`, manually start and stop the recording whenever you want. You may pass a [RecordingProperties](api/openvidu-node-client/interfaces/RecordingProperties.html) object when calling `OpenVidu.startRecording` method to override default values configured in step 1 or to further configure it with other available options
 
         var recording;
 
@@ -653,7 +653,7 @@ session.createConnection(connectionProperties).then(connection => {
 });
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/session.html#createconnection){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/Session.html#createconnection){:target="_blank"}
 
 </div>
 
@@ -706,7 +706,7 @@ var connectionProperties = {
 session.updateConnection(connectionId, connectionProperties).then(connection => { ... });
 ```
 
-See [TypeDoc](api/openvidu-node-client/classes/session.html#updateconnection){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/classes/Session.html#updateconnection){:target="_blank"}
 
 </div>
 

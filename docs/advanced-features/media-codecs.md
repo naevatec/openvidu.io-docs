@@ -136,7 +136,7 @@ const sessionProperties = { forcedVideoCodec: VideoCodec.VP8 };
 const session = openvidu.createSession(sessionProperties);
 ```
 
-See [TypeDoc](api/openvidu-node-client/interfaces/sessionproperties.html#forcedvideocodec){:target="_blank"}
+See [TypeDoc](api/openvidu-node-client/interfaces/SessionProperties.html#forcedvideocodec){:target="_blank"}
 
 </div>
 

@@ -437,7 +437,7 @@ For an IP camera Connection (type `IPCAM`)
 > - **type** _(optional String)_ : which type of Connection will be created. It can be `WEBRTC` for a regular user connecting from an application or `IPCAM` for an IP camera. Default to `WEBRTC`<br><br>
 > - **data** _(optional String)_ : metadata associated to this Connection (usually participant's information). This populates property `serverData` of the [Connection object](#the-connection-object)<br><br>
 > - **record** _(optional Boolean)_ <a href="openvidu-pro/"><span id="openvidu-pro-tag" style="display: inline-block; background-color: rgb(0, 136, 170); color: white; font-weight: bold; padding: 0px 5px; margin-left: 5px; border-radius: 3px; font-size: 13px; line-height:21px; font-family: Montserrat, sans-serif;">PRO</span></a> : whether to record the streams published by the Connection or not. This only affects [INDIVIDUAL recording](advanced-features/recording/#individual-recording-selection). Default to `true`<br><br>
-> - **role** _(optional String. Check [OpenViduRole](api/openvidu-node-client/enums/openvidurole.html) section of OpenVidu Node Client for a complete description)_: only for type `WEBRTC`. Defines the role of the Connection:
+> - **role** _(optional String. Check <a href="api/openvidu-node-client/enums/OpenViduRole.html">OpenViduRole</a> section of OpenVidu Node Client for a complete description)_: only for type `WEBRTC`. Defines the role of the Connection:
 >     - `SUBSCRIBER`
 >     - `PUBLISHER` _(default)_
 >     - `MODERATOR`<br><br>
@@ -1414,7 +1414,7 @@ Broadcast API is part of OpenVidu <a href="openvidu-pro/"><span id="openvidu-pro
 </div>
 </div>
 
-See [Broadcast to YouTube/Twitch](/advanced-features/broadcast).
+See [Broadcast to YouTube/Twitch](advanced-features/broadcast).
 
 ### POST `/openvidu/api/broadcast/start` {:id=start-broadcast}
 
@@ -2068,7 +2068,7 @@ Generate a token for a Session. This token must be sent to the client side to be
 ```
 
 > - **session** _(mandatory String)_ : the sessionId for which the token should be associated.<br><br>
-> - **role** _(optional String. Check [OpenViduRole](api/openvidu-node-client/enums/openvidurole.html) section of OpenVidu Node Client for a complete description)_
+> - **role** _(optional String. Check  <a href="api/openvidu-node-client/enums/OpenViduRole.html">OpenViduRole</a> section of OpenVidu Node Client for a complete description)_
 >     - `SUBSCRIBER`
 >     - `PUBLISHER` _(default)_
 >     - `MODERATOR`<br><br>
@@ -2114,7 +2114,7 @@ This operation returns a Token object:
 | connectionId | String | Connection identifier that will be assigned to the user consuming this token |
 | createdAt | Number | Time when the token was created in UTC milliseconds |
 | session | String | Identifier of the session for which this token is valid |
-| role | String | Role of the token. Check [OpenViduRole](api/openvidu-node-client/enums/openvidurole.html) section of OpenVidu Node Client for a complete description |
+| role | String | Role of the token. Check  <a href="api/openvidu-node-client/enums/OpenViduRole.html">OpenViduRole</a> section of OpenVidu Node Client for a complete description |
 | data | String | Metadata associated to this token. Usually participant's information |
 | record | Boolean | Whether the streams published by the participant owning this token will be recorded or not. This only affects [INDIVIDUAL recording](advanced-features/recording/#individual-recording-selection) <a href="openvidu-pro/"><span id="openvidu-pro-tag" style="display: inline-block; background-color: rgb(0, 136, 170); color: white; font-weight: bold; padding: 0px 5px; margin-left: 5px; border-radius: 3px; font-size: 13px; line-height:21px; font-family: Montserrat, sans-serif;">PRO</span></a> |
 | kurentoOptions | Object | Configuration properties for the participant owning this token regarding Kurento. See a complete description of them in the body of [POST /openvidu/api/tokens](#body_1) |

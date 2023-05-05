@@ -189,7 +189,7 @@ If you want to know more about what type of authentication you can use with Open
   </div>
   <div class="warningBoxText">
     This authentication and authorization recording system is very basic and limited. <strong>It will not be suitable for most production environments</strong>. We highly recommend <strong>IMPLEMENTING YOUR OWN USER MANAGEMENT SYSTEM</strong> with real persistence for a properly secured recording process. <br>
-    You can check the <a href="docs/application-server/#user-authentication">user authentication section</a> for more information.
+    You can check the <a href="application-server/#user-authentication">user authentication section</a> for more information.
   </div>
 </div>
 

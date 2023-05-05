@@ -53,4 +53,4 @@ newPublisher = OV.initPublisher(newOptions);
 session.publish(newPublisher);
 ```
 
-> **NOTE**: only users with Role `PUBLISHER` or `MODERATOR` can call `Session.publish` method. You can check [OpenViduRole](api/openvidu-node-client/enums/openvidurole.html) section of OpenVidu Node Client for a complete description
+> **NOTE**: only users with Role `PUBLISHER` or `MODERATOR` can call `Session.publish` method. You can check [OpenViduRole](api/openvidu-node-client/enums/OpenViduRole.html) section of OpenVidu Node Client for a complete description

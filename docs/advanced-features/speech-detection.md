@@ -9,7 +9,7 @@
   </div>
 </div>
 
-A pretty common requested event is one that allows you to detect when a publisher starts and stops speaking. OpenVidu offers this ability through [PublisherSpeakingEvents](api/openvidu-browser/classes/PublisherSpeakingevent.html) that can be configured in [Session](api/openvidu-browser/classes/Session.html) object:
+A pretty common requested event is one that allows you to detect when a publisher starts and stops speaking. OpenVidu offers this ability through [PublisherSpeakingEvents](api/openvidu-browser/classes/PublisherSpeakingEvent.html) that can be configured in [Session](api/openvidu-browser/classes/Session.html) object:
 
 ```javascript
 session.on('publisherStartSpeaking', (event) => {
